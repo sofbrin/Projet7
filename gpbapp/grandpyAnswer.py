@@ -30,7 +30,6 @@ class GrandpyAnswer:
             if word not in stopwords:
                 parsed_words.append(word)
         parsed_question = ' '.join(parsed_words)
-        print('TOTO 1', parsed_question)
         return parsed_question
 
 
@@ -51,7 +50,6 @@ class GrandpyAnswer:
                     'summary': wikiAnswer,
                     'search': wikiSearch[0]
             }
-            print('TOTO 2', wikiSearch)
             return data
 
     def gmapAnswer(self, search):

@@ -34,7 +34,7 @@ def test_gmapAPI(monkeypatch):
 
     def mockreturn(search):
         return result
-        
+
     search = "trou biches"
     monkeypatch.setattr('gpbapp.grandpyAnswer.GrandpyAnswer.gmapAnswer', mockreturn)
     apiG = script.GrandpyAnswer(search[1])
