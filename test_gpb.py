@@ -3,6 +3,7 @@
 
 import gpbapp.grandpyAnswer as script
 
+
 question = 'Est-ce que par hasard tu connais Trou aux Biches ?'
 def test_questionParser():
     """ test the parser """

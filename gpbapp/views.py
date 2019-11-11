@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, jsonify
-#from dotenv import load_dotenv
 import os
 from gpbapp.grandpyAnswer import GrandpyAnswer
+from settings import API_KEY
 
 app = Flask(__name__)
-app.config['API_KEY'] = os.getenv('API_KEY')
+app.config['API_KEY'] = API_KEY
 
 
 @app.route('/')
