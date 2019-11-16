@@ -12,7 +12,7 @@ Réalisation d'une application qui permet de faire des recherches d'adresse, d'a
 - Développement avec Python et Flask,
 - Interactions en AJAX et jQuery,
 - Design de la page avec Bootstrap,
-- Déploiement sur la plateforme Heroku - lien : [GrandPy Bot ici] (http://gpbotapp.herokuapp.com/)
+- Déploiement sur la plateforme Heroku - lien : http://gpbotapp.herokuapp.com/
 
 **4. Installation des dépendances :**
 pip install -r requirements.txt
