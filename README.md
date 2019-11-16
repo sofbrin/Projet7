@@ -19,6 +19,6 @@ pip install -r requirements.txt
 
 **5. Lancement :**
 - Enregistrer une clé API GoogleMaps dans une variable d'environnement. Commande à passer sur le terminal :
-  sous max et linux : **_export nom_variable:votre_code_**
+  sous mac et linux : **_export nom_variable:votre_code_**
 - Lancer l'application : **_python run.py_**
 
