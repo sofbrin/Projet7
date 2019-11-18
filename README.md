@@ -15,10 +15,11 @@ Réalisation d'une application qui permet de faire des recherches d'adresse, d'a
 - Déploiement sur la plateforme Heroku - lien : http://gpbotapp.herokuapp.com/
 
 **4. Installation des dépendances :**
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 **5. Lancement :**
 - Enregistrer une clé API GoogleMaps dans une variable d'environnement. Commande à passer sur le terminal :
-  sous mac et linux : **_export nom_variable:votre_code_**
+  - Sous windows : **_set nom_variable:valeur_**
+  - Sous mac et linux : **_export nom_variable:valeur_**
 - Lancer l'application : **_python run.py_**
 
