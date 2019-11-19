@@ -19,7 +19,7 @@ Réalisation d'une application qui permet de faire des recherches d'adresse, d'a
 
 **5. Lancement :**
 - Enregistrer une clé API GoogleMaps dans une variable d'environnement. Commande à passer sur le terminal :
-  - Sous windows : **_set nom_variable:valeur_**
-  - Sous mac et linux : **_export nom_variable:valeur_**
+  - Sous windows : **_set nom_variable=valeur_**
+  - Sous mac et linux : **_export nom_variable=valeur_**
 - Lancer l'application : **_python run.py_**
 
